@@ -57,4 +57,5 @@ for k = 1:max_iter
 end
 
 % 输出结果
+fprintf('迭代次数为 %d\n', k);
 fprintf('最小值为 %.3f\n', f(x));
